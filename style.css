@@ -1,0 +1,55 @@
+/* Style de base pour le widget compteur */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+}
+
+/* Style du conteneur du compteur */
+.counter-widget {
+    background-color: #4EC5E9; /* Couleur de fond modifiable */
+    width: 120px;
+    height: 300px;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Style pour le texte "WIN" */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+}
+
+/* Style du texte du compteur */
+#count {
+    font-size: 48px;
+    color: #000000;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Style des boutons */
+button {
+    background: none;
+    border: none;
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:active {
+    transform: scale(0.9);
+}
